@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
-import { ChevronRight, Horse } from "lucide-react";
+import { ChevronRight, Horseshoe } from "lucide-react";
 
 const HorseFactCard = ({ title, description }) => (
   <Card className="w-full">
@@ -26,7 +26,7 @@ const Index = () => {
     <div className="min-h-screen bg-gradient-to-b from-amber-100 to-amber-200 py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         <header className="text-center mb-16">
-          <Horse className="w-24 h-24 mx-auto mb-4 text-amber-700" />
+          <Horseshoe className="w-24 h-24 mx-auto mb-4 text-amber-700" />
           <h1 className="text-5xl font-bold text-amber-900 mb-4">Discover the Majesty of Horses</h1>
           <p className="text-xl text-amber-800 max-w-2xl mx-auto">
             Explore the beauty, strength, and grace of these magnificent creatures that have been our companions throughout history.
