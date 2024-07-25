@@ -55,7 +55,7 @@ const Index = () => {
           <p className="text-xl text-green-800 mb-8 max-w-2xl mx-auto">
             Whether you're a seasoned naturalist or new to environmental studies, there's always more to learn and explore.
           </p>
-          <Button size="lg" className="bg-green-600 hover:bg-green-700 text-white">
+          <Button size="lg" className="bg-red-600 hover:bg-red-700 text-white">
             Learn More <ChevronRight className="ml-2 h-4 w-4" />
           </Button>
         </section>
